@@ -161,10 +161,10 @@ en:
             Anda melalui Slack.
           title: Notifikasi
       settings_navigation:
-        brand: "Brand"
+        brand: "Merek"
         domain: "Domain"
-        language: "Language"
-        access_policy: "Access Policy"
+        language: "Bahasa"
+        access_policy: "Kebijakan Akses"
     themes:
       background_image: Gambar latar belakang
       bg_instructions: 'Max size: 3000 x 1000 px'
@@ -178,7 +178,7 @@ en:
       course_background_image: Gambar latar belakang kursus
       course_body_text_color: Warna teks isi kursus
       course_design: Desain kursus
-      course_design_subtitle: Dsesain subjudul kursus
+      course_design_subtitle: Desain subjudul kursus
       delete_image: Hapus gambar
       go_to: Buka pengaturan tema
       images: Gambar
@@ -192,8 +192,8 @@ en:
   errors:
     messages:
       not_saved:
-        one: '1 error prohibited this %{resource} from being saved:'
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: '1 kesalahan mencegah %{resource} ini dari disimpan:'
+        other: "%{count} kesalahan mencegah %{resource} ini dari disimpan:"
   items:
     update: Perbarui pelajaran
     edit: Ubah pelajaran
@@ -222,11 +222,11 @@ en:
       tag: Pilih label
     myitem:
       answer: Lihat jawaban
-      back: 'Back to:'
+      back: 'Kembali ke:'
       complete: Selesai
       completed: Selesai
       contents: Pelajaran
-      feedback: Bagaimana menurutmu?
+      feedback: Piye menurutmu?
       feedback_text: Anda baru saja selesai
       link: Kunjungi tautan
       mark_finished: Tandai selesai
@@ -325,145 +325,145 @@ en:
       title: Ubah pertanyaan
     _modal_path_settings:
       # Part of the strings from this page are linked to the paths/edit
-      assign_groups: Assign groups
-      assign_groups_text: You can also assign groups of learners previously created in the admin environment.
-      currently_in: You are currently in %{timezone} time
-      design_description: Design
-      design_title: Change the layout of your learner mode
-      find_learners: Find learners
-      find_groups: Find groups
-      only_assigned: Only assigned members
-      path_collaboration: Course collaboration
-      path_collaboration_text: Allow learners to add lessons to this course.
-      person_space: persons in your academy.
-        only for a certain period of time.
+      assign_groups: Tetapkan grup
+      assign_groups_text: Anda juga dapat menetapkan grup pelajar yang dibuat sebelumnya di bagian admin.
+      currently_in: Anda sedang dalam waktu %{timezone}
+      design_description: Desain
+      design_title: Ubah tata letak mode pelajar Anda
+      find_learners: Cari pelajar
+      find_groups: Cari grup
+      only_assigned: Hanya anggota yang ditetapkan
+      path_collaboration: Kolaborasi kursus
+      path_collaboration_text: Izinkan pelajar untuk tambah pelajaran ke kursus ini.
+      person_space: orang di akademi Anda.
+       hanya untuk jangka waktu tertentu.
     _new_item_modal:
-      title: Add new lesson
+      title: Tambah pelajaran baru
     _path:
-      change_cover: Change Cover
-      edit_path: Edit Course
+      change_cover: Ubah Sampul
+      edit_path: Ubah Kursus
       items:
-        one: "%{count} Lesson"
-        other: "%{count} Lessons"
-      view_path: View Course
+        one: "%{count} Pelajaran"
+        other: "%{count} Pelajaran"
+      view_path: Lihat Kursus
     _paths_list:
-      create_first_path: Create your first course
-      no_paths: There are no courses here yet.
+      create_first_path: Buat kursus pertama Anda
+      no_paths: Belum ada kursus di sini.
     edit:
-      add_content: Add lesson
-      all_learners: All learners
-      assign_learners: Assign learners
-      assign_learners_text: You can assign individual learners who will be able to
-        see the course and are notified about the course.
-      change_name: Change Name
-      change_timezone: Change your time zone here
-      currently_in: You are currently in
-      form_title: The form contains
-      group_path_title: Group course settings
-      noend: No end
-      notifications_text: Your learners will receive a notification about this course.
-      only_assigned: Only assigned members
-      path_collaboration: Course collaboration
-      path_collaboration_text: Allow learners to add lessons to this course.
-      person_space: persons in your academy.
-      schedule_path: Schedule a course
-      schedule_path_text_1: Courses are generally always available to your academy.
-      schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
-      sending_notification: You will be sending a notification to
-      title_1: Add lesson
-      title_2: Group course settings
+      add_content: Tambah pelajaran
+      all_learners: Semua pelajar
+      assign_learners: Tetapkan pelajar
+      assign_learners_text: Anda dapat tetapkan individu pelajar yang akan dapat
+        melihat kursus dan diberitahu tentang kursus tersebut.
+      change_name: Ubah Nama
+      change_timezone: Ubah zona waktu Anda di sini
+      currently_in: Anda sedang dalam
+      form_title: Formulir berisi
+      group_path_title: Pengaturan grup kursus
+      noend: Tidak terbatas
+      notifications_text: Pelajar Anda akan menerima pemberitahuan tentang kursus ini.
+      only_assigned: Hanya anggota yang ditetapkan
+      path_collaboration: Kolaborasi kursus
+      path_collaboration_text: Izinkan pelajar untuk tambah pelajaran ke kursus ini.
+      person_space: orang di akademi Anda.
+      schedule_path: Jadwalkan kursus
+      schedule_path_text_1: Umumnya, kursus selalu tersedia untuk akademi Anda.
+      schedule_path_text_2: Dengan pengaturan ini, Anda dapat menjadwalkan kursus yang tersedia
+        hanya untuk jangka waktu tertentu.
+      sending_notification: Anda akan mengirimkan pemberitahuan ke
+      title_1: Tambah pelajaran
+      title_2: Pengaturan grup kursus
     index:
-      assigned: Assigned to me
+      assigned: Ditetapkan kepada saya
     review:
-      all_learners: All learners
-      assign_users: Assign users
-      assign_users_text: You can assign individual users who will be able to see the
-        course and are notified about the course.
-      change_timezone: Change your time zone here
-      currently_in: You are currently in
-      find_learners: Find learners
-      form_title: The form contains
-      notifications_text: Your learners will receive a notification about this course.
-      only_assigned: Only assigned members
-      open-ended: Open-ended
-      person_space: Persons
-      save_draft: Save as draft
-      schedule_path: Schedule course
-      schedule_path_text_1: Courses are generally always available to your academy.
-      schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
-      sending_notification: You will be sending a notification to
-      title: Configure course
+      all_learners: Semua pelajar
+      assign_users: Tetapkan pengguna
+      assign_users_text: Anda dapat menetapkan individu pengguna yang dapat melihat
+        kursus dan diberitahu tentang kursus.
+      change_timezone: Ubah zona waktu Anda di sini
+      currently_in: Anda sedang dalam
+      find_learners: Cari pelajar
+      form_title: Formulir berisi
+      notifications_text: Pelajar Anda akan menerima pemberitahuan tentang kursus ini.
+      only_assigned: Hanya anggota yang ditetapkan
+      open-ended: Terbuka
+      person_space: Orang
+      save_draft: Simpan sebagai draf
+      schedule_path: Jadwalkan kursus
+      schedule_path_text_1: Umumnya, kursus selalu tersedia untuk akademi Anda.
+      schedule_path_text_2: Dengan pengaturan ini, Anda dapat menjadwalkan kursus yang tersedia
+        hanya untuk jangka waktu tertentu.
+      sending_notification: Anda akan mengirimkan pemberitahuan ke
+      title: Atur kursus
     preview:
-      edit: Edit Course
+      edit: Ubah kursus
     show:
-      add_item: Add at least one lesson
-      course_details: Course Details
-      edit: Edit
-      enter_emails: Enter emails here
-      invitations_sent: Invitations sent to
-      invite: Invite
-      invite_learners: Invite learners
-      invite_learners_text: The learners will be invited and assigned to this course.
-      learners: learners.
-      no_items: There are no lessons yet.
-      path_published: Course was successfully published.
-      send_invitations: Send invitations
+      add_item: Tambah setidaknya satu pelajaran
+      course_details: Rincian Kursus
+      edit: Ubah
+      enter_emails: Masukkan email di sini
+      invitations_sent: Undangan dikirim ke
+      invite: Undang
+      invite_learners: Undang pelajar
+      invite_learners_text: Peserta didik akan diundang dan ditetapkan untuk kursus ini.
+      learners: pelajar.
+      no_items: Belum ada pelajaran.
+      path_published: Kursus berhasil diterbitkan.
+      send_invitations: Kirim undangan
     show_share:
       sharelink:
-        button: Copy
-        title: Share this link
+        button: Salin
+        title: Bagikan tautan ini
     templates:
-      create_template: Create from template
-      title: Templates
-      view_original: View original course
+      create_template: Buat dari templat
+      title: Templat
+      view_original: Lihat kursus asli
   questions:
     shared:
-      correct: Correct answer!
-      incorrect: Incorrect!
-      correct_text: 'The correct answer is option:'
-      multiple: Multiple choice question
-      submit: Submit
-      answer: Check for correct answer
+      correct: Benar!
+      incorrect: Salah!
+      correct_text: 'Jawaban yang benar adalah pilihan:'
+      multiple: Soal pilihan ganda
+      submit: Kirim
+      answer: Periksa jawaban yang benar
     _option_fields:
-      option: Option
-      answer: Check answer
+      option: Pilihan
+      answer: Periksa jawaban
     _question_form:
-      add_option: Add option
-      ask_question: Ask a question...
-      save_options: Save options
+      add_option: Tambah pilihan
+      ask_question: Tanyakan soalan...
+      save_options: Simpan pilihan
     _view_question:
-      title: Quiz Question
+      title: Pertanyaan Kuis
     modal_failure:
-      try_again: You can try again!
+      try_again: Anda dapat mencoba lagi!
   profiles:
     shared:
-      email: Enter an email address
-      locale: Language
-      name: Enter your name
-      position: Enter your position
+      email: masukkan email
+      locale: Bahasa
+      name: Masukkan nama Anda
+      position: Masukkan posisi Anda
     _profile_navigation:
-      overview: Overview
+      overview: Gambaran
   users:
     shared:
-      password: Password
-      new_password: New Password
-      confirm_new_password: Confirm New Password
-      confirm_password: Confirm Password
-      enter_name: Enter your name
-      enter_password: Enter your password
-      password_confirmation: Enter the password again
-      password_reset: Password reset
-      enter_email: Enter your e-mail address
-      remember: Remember me
-      password_text: Your password should be at least 6 characters long (and contain numbers and special characters for additional security)
+      password: Kata sandi
+      new_password: Kata sandi baru
+      confirm_new_password: Konfirmasi kata sandi baru
+      confirm_password: Konfirmasi kata sandi
+      enter_name: Masukkan nama Anda
+      enter_password: Masukkan kata sandi Anda
+      password_confirmation: Masukkan kata sandi lagi
+      password_reset: Pengaturan ulang kata sandi
+      enter_email: Masukkan email Anda
+      remember: Ingat Saya
+      password_text: Kata sandi Anda setidaknya harus 6 karakter (dan berisi angka dan karakter khusus untuk keamanan tambahan)
       _links:
-        forgot: Forgot your password?
+        forgot: Lupa kata sandi Anda?
     profiles:
       certificates:
-        no_certificate: You don't have any issued certificate yet.
-        date_issue: Date of issue
+        no_certificate: Anda belum memiliki sertifikat yang diterbitkan.
+        date_issue: Tanggal terbit
         view_pdf: Lihat sebagai PDF
       items:
         no_lessons: Anda belum memiliki pelajaran yang tersedia.
