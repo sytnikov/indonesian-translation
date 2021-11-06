@@ -3,211 +3,211 @@ en:
   admin:
     welcome:
       index:
-        total_views: Total Views
-        lesson_title: Lesson title
+        total_views: Jumlah Tontonan
+        lesson_title: Judul pelajaran
     paths:
       certificates_tab:
-        completed: Completed Lessons
-        status: Certificates Status
-        issued: Issued
-        pending: Pending
-        automatic: Automatically
-        canceled: Canceled
-        pdf: View as PDF
-        cancel: Cancel
-        issue: Issue
-        no_certificate: There is no certificate template created yet.
-        create_template: Create a template
+        completed: Pelajaran Selesai 
+        status: Status Sertifikat
+        issued: Diterbitkan
+        pending: Tertunda
+        automatic: Otomatis
+        canceled: Dibatalkan
+        pdf: Lihat sebagai PDF
+        cancel: Batal
+        issue: Terbit
+        no_certificate: Belum ada templat sertifikat yang dibuat.
+        create_template: Buat templat
       users_tab:
-        completed: Completed Lessons
-        details: Details
+        completed: Pelajaran Selesai
+        details: Rincian
     users:
       index:
-        banner_button: Change access policy
-        banner_title: Want to allow users to sign up by themselves?
+        banner_button: Ubah kebijakan akses
+        banner_title: Ingin mengizinkan pengguna mendaftar sendiri?
         invite:
-          button: Invite User
-          email: Email address
-          name: Name
-          title: Invite new users
+          button: Undang Pengguna
+          email: Alamat email
+          name: Nama
+          title: Undang pengguna baru
         sharelink:
-          button: Copy
-          title: Or share this link
+          button: Salin
+          title: Atau bagikan tautan ini
     items:
-      completed: Completed
+      completed: Selesai
     groups:
       index:
-        members: Members
-        member: Member
-        new: New group
-        edit: Edit group
-        modal_form_name: Name
-        modal_form_users_label: Add users
-        modal_form_users_placeholder: Select users
-        modal_title: Create a new group
+        members: Anggota
+        member: Anggota
+        new: Grup baru
+        edit: Ubah grup
+        modal_form_name: Nama
+        modal_form_users_label: Tambah pengguna
+        modal_form_users_placeholder: Pilih pengguna
+        modal_title: Buat grup baru
       show:
         action:
-          remove: Remove from group
-        col_name: Name
-        modal_form_name_placeholder: Name
-        modal_form_users_label: Add users
-        modal_form_users_placeholder: Select users
-        modal_title: Update group
+          remove: Hapus dari grup
+        col_name: Nama
+        modal_form_name_placeholder: Nama
+        modal_form_users_label: Tambah pengguna
+        modal_form_users_placeholder: Pilih pengguna
+        modal_title: Perbarui grup
     certificate_templates:
       index:
-        issue_config: Issue Configuration
-        issued: Issued
-        manual: Manual
-        automatic: Automatic
-        template: Template
-        not_created: Not created yet
-        edit: Edit template
-        create: Create template
+        issue_config: Konfigurasi Masalah
+        issued: Diterbitkan
+        manual: Panduan
+        automatic: Otomatis
+        template: Templat
+        not_created: Belum dibuat
+        edit: Ubah templat
+        create: Buat templat
     layouts:
       application:
-        workspace: Back to Academy
+        workspace: Kembali ke Akademi
     questions:
       show:
         col:
-          attempts: Attempts
-          correct: Correct
-          name: Name
-        completed: Completed
-        title: Title
+          attempts: Percobaan
+          correct: Koreksi
+          name: Nama
+        completed: Selesai
+        title: Judul
     plans:
       index:
-        manage: Manage your Plan
-        lifetime: Lifetime access to
-        includes: Plan includes
-        current: Current Plan
-        unlimited: Unlimited
-        unlimited_learners: Unlimited learners
-        unlimited_creators: Unlimited creators
-        unlimited_drafts: Unlimited draft courses
-        analytics: Advanced analytics
-        features: View all features
-        upgrade: Upgrade plan
-        quote: Get a quote
-        features_included: Features included in all plans
-        alert_premium: Your plan provides two academies. If you want to create a second one, please get in touch with us through <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
-        topic1: Private/public academy
+        manage: Kelola Paket Anda
+        lifetime: Akses seumur hidup ke
+        includes: Paket termasuk
+        current: Paket saat ini
+        unlimited: Tak terbatas
+        unlimited_learners: Pelajar tanpa batas
+        unlimited_creators: Kreator tak terbatas
+        unlimited_drafts: Draf kursus tanpa batas
+        analytics: Analisis lanjutan
+        features: Lihat semua fitur
+        upgrade: Tingkatkan paket
+        quote: Dapatkan penawaran
+        features_included: Fitur termasuk dalam semua paket
+        alert_premium: Paket Anda tersedia dua akademi. Jika Anda ingin membuat yang kedua, silahkan hubungi kami melalui <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
+        topic1: Akademi pribadi/umum
         topic2: 'Micro-learning: bite-sized course creator'
-        topic3: Public, restricted and hidden courses
-        topic4: Quizzes
-        topic5: Custom domain
-        topic6: Email invites/link invites
-        topic7: Embed widgets
-        topic8: Custom branding
-        topic9: Certificates
-        topic10: Groups
-        topic11: Multiple languages
-        topic12: All lessons in one place/lesson view
-        topic13: User profiles
-        topic14: Clone lessons
-        topic15: Course collaborators
+        topic3: Kursus umum, terbatas, dan tersembunyi
+        topic4: Kuis
+        topic5: Domain khusus
+        topic6: Undangan email/tautan undangan
+        topic7: Sematkan widget
+        topic8: Ubah merek
+        topic9: Sertifikat
+        topic10: Grup
+        topic11: Beberapa bahasa
+        topic12: Semua pelajaran di satu tempat/tampilan pelajaran
+        topic13: Profil pengguna
+        topic14: Duplikat pelajaran
+        topic15: Kolaborator kursus
     tenants:
       edit:
-        name: Academy name
-        name_placeholder: Enter your team or company name
-        welcome_subtitle: Secondary welcome message
-        welcome_title: Primary welcome message
+        name: Nama Akademi
+        name_placeholder: Masukkan nama tim atau perusahaan Anda
+        welcome_subtitle: Pesan selamat datang sekunder
+        welcome_title: Pesan selamat datang utama
         whitelabel: White Label
-        whitelabel_checkbox: Remove 'Powered by Marble' signatures
-        design_title: Design
-        design_subtitle: Update your brand logo, background images and the colors used in your academy.
+        whitelabel_checkbox: Hapus tanda 'Powered by Marble'
+        design_title: Desain
+        design_subtitle: Perbarui logo merek Anda, gambar latar belakang, dan warna yang digunakan di akademi Anda.
         brand_instructions: 'Max size: 2000 x 700 px'
-        brand_logo: Brand logo
-        favicon_logo: Favicon logo
-        save_logo: Save logo
-        save_favicon_logo: Save Favicon logo
-        go_to_themes: Go to theme settings
+        brand_logo: Logo merek
+        favicon_logo: Logo favicon
+        save_logo: Simpan logo
+        save_favicon_logo: Simpan Favicon logo
+        go_to_themes: Buka pengaturan tema
       domain:
         form:
           placeholder: example.yourdomain.tld
-          submit: Save custom domain
+          submit: Simpan domain khusus
           subtext: 'Please enter your custom (sub)domain without http:// or https://. Your domain will automatically be secured by SSL. It may take up to 24 hours for the DNS changes to be reflected.'
-        subtitle: Set a custom domain for your academy
+        subtitle: Atur domain khusus untuk akademi Anda
         text_html: "Your academy will be available on %{url} and the <span class='font-weight-bold'>custom
           domain</span> you choose here:"
-        title: Custom Domain
-        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Learn more how to enable a custom domain</a>
+        title: Domain khusus
+        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Pelajari lebih lanjut cara aktifkan domain khusus</a>
       language:
-        submit: Save language
-        label: Language
-        subtitle: Change the language for the entire academy.
+        submit: Simpan bahasa
+        label: Bahasa
+        subtitle: Ubah bahasa untuk seluruh akademi.
       access_policy:
-        action: Change access
+        action: Ubah akses
         modal:
           form:
             open:
-              label1: Open
-              label2: Anyone with the link can register to the academy.
+              label1: Terbuka
+              label2: Siapa pun yang memiliki tautan dapat mendaftar ke akademi.
             private:
-              label1: Private
-              label2: Only people invited to the academy have access to it.
+              label1: Pribadi
+              label2: Hanya orang yang diundang ke akademi yang memiliki akses ke akademi.
             public:
-              label1: Public
-              label2: Anyone with the link can view this academy and its lessons.
-          title: Change access policy
-        subtitle: Change access policy
-        text: You can change the <strong>access policy</strong> for this academy, which is currently <strong>%{value}</strong>.
-        title: Danger Zone
+              label1: Umum
+              label2: Siapa pun yang memiliki tautan dapat melihat akademi ini dan pelajarannya.
+          title: Ubah kebijakan akses
+        subtitle: Ubah kebijakan akses
+        text: Anda dapat ubah <strong>kebijakan akses</strong> akademi ini, yang saat ini <strong>%{value}</strong>.
+        title: Zona Bahaya
         notification:
-          open: open
-          private: private
-          public: public
-          subtitle: Get notifications in Slack
-          text: When a course is published or an lesson added, MarbleBot will notify
-            you via Slack.
-          title: Notifications
+          open: terbuka
+          private: pribadi
+          public: umum
+          subtitle: Dapatkan notifikasi di Slack
+          text: Saat kursus diterbitkan atau pelajaran ditambahkan, MarbleBot akan memberi tahu
+            Anda melalui Slack.
+          title: Notifikasi
       settings_navigation:
         brand: "Brand"
         domain: "Domain"
         language: "Language"
         access_policy: "Access Policy"
     themes:
-      background_image: Background image
+      background_image: Gambar latar belakang
       bg_instructions: 'Max size: 3000 x 1000 px'
       brand_instructions: 'Max size: 500 x 175 px'
-      brand_logo: Brand logo
-      button_color: Buttons color
-      button_text_color: Buttons text color
-      colors: Colors
-      colors_subtitle: Please, choose the main colors of your academy.
-      course_background: Course background
-      course_background_image: Course background image
-      course_body_text_color: Course body text color
-      course_design: Course design
-      course_design_subtitle: Course design subtitle
-      delete_image: Delete image
-      go_to: Go to theme settings
-      images: Images
-      images_subtitle: Customize the images shown in your academy.
-      name: Theme name
-      navbar_color: Main navigation bar color
-      navbar_text_color: Main navigation bar text color
-      save: Save new theme
-      title: Theme settings
-      title_color: Title color on homepage
+      brand_logo: Logo merek
+      button_color: Warna tombol
+      button_text_color: Warna teks tombol
+      colors: Warna
+      colors_subtitle: Silakan, pilih warna utama akademi Anda.
+      course_background: Latar belakang kursus
+      course_background_image: Gambar latar belakang kursus
+      course_body_text_color: Warna teks isi kursus
+      course_design: Desain kursus
+      course_design_subtitle: Dsesain subjudul kursus
+      delete_image: Hapus gambar
+      go_to: Buka pengaturan tema
+      images: Gambar
+      images_subtitle: Sesuaikan gambar yang ditampilkan di akademi Anda.
+      name: Nama tema
+      navbar_color: Warna bilah navigasi utama
+      navbar_text_color: Warna teks bilah navigasi utama
+      save: Simpan tema baru
+      title: Pengaturan tema
+      title_color: Warna judul di beranda
   errors:
     messages:
       not_saved:
         one: '1 error prohibited this %{resource} from being saved:'
         other: "%{count} errors prohibited this %{resource} from being saved:"
   items:
-    update: Update Lesson
-    edit: Edit Lesson
-    delete: Delete Lesson
-    add: Add Lesson
-    create: Create Lesson
-    save: Save Lesson
-    add_question: Add Question
-    choose_file: Choose a file
-    item_code: Code
+    update: Perbarui pelajaran
+    edit: Ubah pelajaran
+    delete: Hapus pelajaran
+    add: Tambah pelajaran
+    create: Buat pelajaran
+    save: Simpan pelajaran
+    add_question: Tambah pertanyaan
+    choose_file: Pilih file
+    item_code: Kode
     file_size: "(max. 10MB)"
-    enter_tag: Enter a Tag
-    uploaded: Currently Uploaded
-    nolink_text: Don't have a link? Upload a file
+    enter_tag: Masukkan label
+    uploaded: Sedang diunggah
+    nolink_text: Tidak punya tautan? Unggah file
     edit_path_item_advanced:
       choose_lesson: Choose a lesson type
       website_description: A card for any link
