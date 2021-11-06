@@ -209,120 +209,120 @@ en:
     uploaded: Sedang diunggah
     nolink_text: Tidak punya tautan? Unggah file
     edit_path_item_advanced:
-      choose_lesson: Choose a lesson type
-      website_description: A card for any link
-      video_description: Immersive video integration
-      pdf_description: Upload or link to a file
-      text_description: Long form text with style
-      embed_description: Embed any content you like
-      quiz_description: Giver clear options
+      choose_lesson: Pilih jenis pelajaran
+      website_description: Kartu untuk tautan apa pun
+      video_description: Melingkupi integrasi video
+      pdf_description: Unggah atau tautkan ke file
+      text_description: Teks panjang dengan gaya
+      embed_description: Sematkan konten apa pun yang Anda suka
+      quiz_description: Berikan opsi yang jelas
     index:
-      all: All
-      reset: Reset
-      tag: Select a tag
+      all: Semua
+      reset: Atur ulang
+      tag: Pilih label
     myitem:
-      answer: View Answer
+      answer: Lihat jawaban
       back: 'Back to:'
-      complete: Complete
-      completed: Completed
-      contents: Lessons
-      feedback: How was it?
-      feedback_text: You just completed
-      link: Visit link
-      mark_finished: Mark Finished
-      next: Next up
-      next_lesson: Continue to Next Lesson
-      start_next_lesson: Start Next Lesson
-      to_path: Return to course
+      complete: Selesai
+      completed: Selesai
+      contents: Pelajaran
+      feedback: Bagaimana menurutmu?
+      feedback_text: Anda baru saja selesai
+      link: Kunjungi tautan
+      mark_finished: Tandai selesai
+      next: Selanjutnya
+      next_lesson: Lanjut ke Pelajaran Berikutnya
+      start_next_lesson: Mulai Pelajaran Berikutnya
+      to_path: Kembali ke kursus
     new:
-      title: New Lesson
+      title: Pelajaran Baru
     new_path_item:
-      add_existing_content: Add existing lesson
-      add_items_text: Find lesson
-      add_items_title: Choose lessons to add
-      add_new_content: Add new lesson
-      add_question: Add question
-      question_text: You can add questions after creating the lesson.
+      add_existing_content: Tambahkan pelajaran yang ada
+      add_items_text: Temukan pelajaran
+      add_items_title: Pilih pelajaran untuk ditambahkan
+      add_new_content: Tambah pelajaran baru
+      add_question: Tambah pertanyaan
+      question_text: Anda dapat menambah pertanyaan setelah membuat pelajaran.
     show:
-      link: Visit link
+      link: Kunjungi tautan
   layouts:
     _navbar:
-      account_question: Have an account?
-      admin_settings: Admin Settings
-      create_path: Create a course
-      design: Design
-      invite_users: Invite Users
-      my_profile: My profile
-      my_settings: My settings
-      support: Support
-      templates: Templates
+      account_question: Punya akun?
+      admin_settings: Pengaturan Admin
+      create_path: Buat kursus
+      design: Desain
+      invite_users: Undang Pengguna
+      my_profile: Profil Saya
+      my_settings: Pengaturan
+      support: Bantuan
+      templates: Templat
     _navbar_tenants:
-      account_question: Have an account?
+      account_question: Punya akun?
   notification_mailer:
     new_path_notification:
       email: Email
-      sign_in: Sign In
-      workspace_name: Academy name
-      workspace_url: Academy URL
+      sign_in: Masuk
+      workspace_name: Nama akademi
+      workspace_url: URL akademi
   paths:
     shared:
-      choose_file: Choose a file
+      choose_file: Pilih file
       file_size: "(max. 10MB)"
-      item_tags_text: Enter a tag
-      nolink_text: Don't have a link? Upload a file
-      enter_url: Enter a URL
-      enter_emails: Enter emails here
-      start_date: Start date
-      end_date: End date
-      draft: Draft
-      publish: Publish
-      previous: Previous
-      start: Start
-      resume: Resume
-      no_notifications: No notifications
-      notifications: Notifications
-      now_button: Now
-      privacy: Privacy
-      anyone_with_link: Anyone with link
-      anyone_with_link_text_2: Anyone on the internet can view this course.
-      restricted: Restricted
-      restricted_text: Only learners assigned can open with this course.
-      privacy_text: Set the privacy of this course.
-      public_text: Anyone in the academy can view this course.
-      available: Available
-      expired: Expired
-      edit_path: Edit Course
+      item_tags_text: Masukkan label
+      nolink_text: Tidak punya tautan? Unggah file
+      enter_url: Masukkan URL
+      enter_emails: Masukkan email di sini
+      start_date: Tanggal mula
+      end_date: Tanggal berakhir
+      draft: Draf
+      publish: Terbitkan
+      previous: Sebelumnya
+      start: Mulai
+      resume: Lanjutkan
+      no_notifications: Tidak ada notifikasi
+      notifications: Notifikasi
+      now_button: Sekarang
+      privacy: Pribadi
+      anyone_with_link: Siapapun dengan tautan
+      anyone_with_link_text_2: Siapapun di internet dapat melihat kursus ini.
+      restricted: Terbatas
+      restricted_text: Hanya peserta yang ditugaskan yang dapat membuka kursus ini.
+      privacy_text: Atur privasi kursus ini.
+      public_text: Siapapun di akademi dapat melihat kursus ini.
+      available: Tersedia
+      expired: Kedaluwarsa
+      edit_path: Ubah Kursus
     show_settings:
-      delete_image: Delete image
-      restore_image: Restore default
+      delete_image: Hapus gambar
+      restore_image: Pulihkan semula
     edit_cover_image_modal:
-      restore: Restore default
+      restore: Pulihkan semula
       label:
-        banner: Cover image
+        banner: Gambar sampul
         banner_instructions: 'Max size: 3000 x 1500 px'
-      title: Change course cover image
+      title: Ubah gambar sampul kursus
     _edit_path_modal:
       label:
-        image: Course background image
+        image: Gambar latar belakang kursus
         image_instructions: "Max size: 3500 x 1100 px"
-        text_color: Course title color
+        text_color: Warna judul kursus
     _existing_items_modal:
-      select_items: Select lessons
-      title: Add Existing Lessons
+      select_items: Pilih pelajaran
+      title: Tambah pelajaran yang ada
     _modal_add_content:
-      add_existing_content: Add existing lesson
-      add_new_content: Add new lesson
-      choose_items: Choose lessons to add
-      find_content: Find lesson
+      add_existing_content: Tambah pelajaran yang ada
+      add_new_content: Tambah pelajaran baru
+      choose_items: Pilih pelajaran untuk ditambahkan
+      find_content: Cari pelajaran
     _modal_add_question:
-      add_option: Add option
-      ask_question: Ask a question...
-      title: Multiple Choice Question
+      add_option: Tambah pilihan
+      ask_question: Tanya pertanyaan...
+      title: Soalan Pilihan Ganda
     _modal_edit_item:
-      title: Edit lesson
+      title: Ubah pelajaran
     _modal_edit_question:
-      add_option: Add option
-      title: Edit question
+      add_option: Tambah pilihan
+      title: Ubah pertanyaan
     _modal_path_settings:
       # Part of the strings from this page are linked to the paths/edit
       assign_groups: Assign groups
@@ -464,142 +464,142 @@ en:
       certificates:
         no_certificate: You don't have any issued certificate yet.
         date_issue: Date of issue
-        view_pdf: View as PDF
+        view_pdf: Lihat sebagai PDF
       items:
-        no_lessons: You don't have lessons available yet.
+        no_lessons: Anda belum memiliki pelajaran yang tersedia.
       paths:
-        no_courses: You don't have courses available yet.
+        no_courses: Anda belum memiliki kursus yang tersedia.
       show:
-        overview: Overview
-        progress: Learn Progress
-        stats: Personal Statistics
+        overview: Gambaran
+        progress: Kemajuan Belajar
+        stats: Statistik Pribadi
     invitations:
       edit:
-        consent_text_html: By continuing, you're agreeing to our %{terms}.
-        submit_button: Save my password
-        subtitle_html: You'll use your email address (<strong>%{email}</strong>) and
-          a password to sign in to your academy on Marble.
-        title: Join %{tenant}
+        consent_text_html: Dengan melanjutkan, Anda menyetujui %{terms} kami.
+        submit_button: Simpan kata sandi
+        subtitle_html: Anda akan menggunakan email Anda (<strong>%{email}</strong>) dan
+          kata sandi untuk masuk ke akademi Anda di Marble.
+        title: Gabung %{tenant}
     mailer:
       invitation_instructions:
-        body_html: has invited you to join the academy <strong>%{tenant}</strong>. Join
-          now to start learning!
-        cta: Join Now
-        title: Join %{tenant} on Marble
+        body_html: telah mengundang Anda untuk bergabung dengan akademi <strong>%{tenant}</strong>. Bergabung
+          sekarang untuk mulai belajar!
+        cta: Gabung Sekarang
+        title: Gabung dengan %{tenant} di Marble
       reset_password_instructions:
-        body: 'You told us you forgot your password. If you really did, click here
-          to choose a new one:'
-        cta: Choose a New Password
-        hint: "“Choose a New Password” button not working?"
-        hint2: 'Just copy and paste this link in your browser:'
-        no_reset: If you didn't mean to reset your password, then you can just ignore
-          this email; your password will not change.
-        title: Reset your password
+        body: 'Anda memberi tahu kami bahwa Anda lupa kata sandi Anda. Jika Anda benar-benar melakukannya, klik di sini
+          untuk memilih yang baru:'
+        cta: Pilih kata sandi baru
+        hint: "Tombol “Choose a New Password” tidak berfungsi?"
+        hint2: 'Cukup salin dan tempel tautan ini di browser Anda:'
+        no_reset: Jika Anda tidak bermaksud mengatur ulang kata sandi Anda, maka Anda dapat mengabaikannya
+          email ini; kata sandi Anda tidak akan berubah.
+        title: Atur ulang kata sandi
     passwords:
       edit:
-        submit_button: Change my password
-        subtitle_html: Enter your new password for your Marble account to sign in
-          to <strong>%{tenant}</strong>.
+        submit_button: Ubah kata sandi 
+        subtitle_html: Masukkan kata sandi baru untuk akun Marble Anda, untuk masuk
+          ke <strong>%{tenant}</strong>.
       new:
         reset_link: Get Reset Link
-        subtitle_html: To reset your password, enter the email address you use to
-          sign in to <strong>%{tenant}</strong>.
+        subtitle_html: Untuk mengatur ulang kata sandi Anda, masukkan alamat email yang Anda gunakan untuk
+          masuk ke <strong>%{tenant}</strong>.
     registrations:
       new:
         terms_button: Terms of Service
-        terms_html: By continuing, you're agreeing to our %{link}.
-        title: Sign up to %{tenant}
+        terms_html: Dengan melanjutkan, Anda menyetujui %{link} kami.
+        title: Daftar ke %{tenant}
     sessions:
       new:
-        title: Sign in to %{tenant}
+        title: Masuk ke %{tenant}
   welcome:
     _modal_new_path:
       label:
-        items: Select lesson
+        items: Pilih pelajaran
       placeholder:
-        select_items: Select lessons
-      title: Create a new course
+        select_items: Pilih pelajaran
+      title: Buat kursus baru
     home:
-      my_paths: My Courses
-      other_paths: Other Courses
-      welcome: Welcome to %{tenant}'s Academy
+      my_paths: Kursus Saya
+      other_paths: Kursus Lain
+      welcome: Selamat datang ke Akademi %{tenant}
     signin:
-      continue: Continue
-      label: Enter your Academy URL
-      placeholder: your-team-url
-      title: Sign in to your Academy
+      continue: Lanjutkan
+      label: Masukkan URL Akademi Anda
+      placeholder: url-tim-anda
+      title: Masuk ke Akademi Anda
   global:
-    back: Back
-    cancel: Cancel
-    close: Close
-    delete: Delete
-    destroy: Destroy
-    edit: Edit
-    new: New
-    remove: Remove
-    create: Create
-    add: Add
-    share: Share
-    save: Save
-    search: Search
-    save_changes: Save changes
-    sign_in: Sign in
-    sign_up: Sign up
-    sign_out: Sign out
-    sure: Are you sure?
-    active: Active
-    inactive: Inactive
-    update: Update
-    save_pdf: Upload and save PDF file
+    back: Kembali
+    cancel: Batal
+    close: Tutup
+    delete: Hapus
+    destroy: Hancur
+    edit: Ubah
+    new: Baru
+    remove: Hapus
+    create: Buat
+    add: Tambah
+    share: Bagikan
+    save: Simpan
+    search: Cari
+    save_changes: Simpan perubahan
+    sign_in: Masuk
+    sign_up: Daftar
+    sign_out: Keluar
+    sure: Kamu yakin?
+    active: Aktif
+    inactive: Tidak aktif
+    update: Perbarui
+    save_pdf: Unggah dan simpan file PDF
     admin: Admin
-    name: Name
-    title: Title
-    description: Description
+    name: Nama
+    title: Judul
+    description: Deskripsi
     url: URL
     email: E-mail
-    details: Details
-    course: Course
-    courses: Courses
-    lesson: Lesson
-    lessons: Lessons
-    user: User
-    users: Users
-    academy: Academy
-    academies: Academies
-    group: Group
-    groups: Groups
-    tag: Tag
-    tags: Tags
-    view: View
-    views: Views
-    in_hours: In hours
-    date: Date
-    "yes": "Yes"
-    "no": "No"
+    details: Rincian
+    course: Kursus
+    courses: Kursus
+    lesson: Pelajaran
+    lessons: Pelajaran
+    user: Pengguna
+    users: Pengguna
+    academy: Akademi
+    academies: Akademi
+    group: Grup
+    groups: Grup
+    tag: Label
+    tags: Label
+    view: Tontonan
+    views: Tontonan
+    in_hours: Dalam hitungan jam
+    date: Tanggal
+    "yes": "Ya"
+    "no": "Tidak"
     min: min
-    h: h
-    s: s
-    ago: ago
-    analytics: Analytics
-    time_spent: Time Spent
-    last_seen: Last Seen
-    completed: Completed
-    completion: Completion
-    satisfaction: Satisfaction
-    avg_satisfaction: Avg. Satisfaction
-    actions: Actions
-    dashboard: Dashboard
-    role: Role
-    admins: Admins
-    creator: Creator
-    creators: Creators
-    learner: Learner
-    learners: Learners
-    certificate: Certificate
-    certificates: Certificates
-    question: Question
-    questions: Questions
-    settings: Settings
-    billing: Billing
-    integration: Integration
-    integrations: Integrations
+    h: j
+    s: d
+    ago: yang lalu
+    analytics: Analitik
+    time_spent: Waktu yang dihabiskan
+    last_seen: Terakhir terlihat
+    completed: Selesai
+    completion: Penyelesaian
+    satisfaction: Kepuasan
+    avg_satisfaction: Rerata Kepuasan
+    actions: Tindakan
+    dashboard: Dasbor
+    role: Peran
+    admins: Admin
+    creator: Kreatir
+    creators: Kreator
+    learner: Pelajar
+    learners: Pelajar
+    certificate: Sertifikat
+    certificates: Sertifikat
+    question: Pertanyaan
+    questions: Pertanyaan
+    settings: Pengaturan
+    billing: Tagihan
+    integration: Integrasi
+    integrations: Integrasi
