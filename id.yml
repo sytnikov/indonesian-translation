@@ -1,13 +1,64 @@
 ---
-en:
+id:
+  activerecord: # translate
+    models:
+      answer: Answer
+      certificate: Certificate
+      certificate_template: Certificate Template
+      feature: Feature
+      goal: Goal
+      group: Group
+      integration: Integration
+      item: Lesson
+      option: Option
+      path: Course
+      payment: Payment
+      plan: Plan
+      question: Question
+      skill: Tag
+      tenant: Academy
+      theme: Theme
+      user: User
+    attributes:
+      certificate:
+        date_issued: Date issued
+        status: Status
+      certificate_template:
+        course_description: Course description
+        brand_logo: Brand logo
+        signature: Signature
+        printed_name: "Printed name"
+        printed_position: "Printed position"
+        minimum_level: "Minimum level to issue"
+        automatically_issued: "Automatically issued"
+      groups:
+        name: Name
+      items:
+        attachment: Attachment
+      path:
+        banner: Cover image
+        background_image: Background image
+        free: Free
+        subscription: Subscription
+        one-time: One-time
+      tenants:
+        subdomain: Subdomain
+        password: Password
+      themes:
+        brand_logo: Brand logo
+        background_image: Background image
+        course_background: Course background
+      user:
+        avatar: Avatar
   admin:
     welcome:
       index:
         total_views: Jumlah Tontonan
         lesson_title: Judul pelajaran
+        in_minutes: "(in minutes)" # translate
     paths:
       certificates_tab:
-        completed: Pelajaran Selesai 
+        completed: Pelajaran Selesai
         status: Status Sertifikat
         issued: Diterbitkan
         pending: Tertunda
@@ -21,6 +72,19 @@ en:
       users_tab:
         completed: Pelajaran Selesai
         details: Rincian
+      edit_payment: #translate
+        billing_mode: Billing mode
+        edit_payment: Edit payment
+        currency_hint: "You are using %{name} (%{code}) as your default currency."
+        change_currency: "Change currency"
+      update: #translate
+        updated: "Course was successfully updated."
+        error: "Sorry, something went wrong when updating."
+      destroy: #translate
+        destroyed: "Course was successfully destroyed."
+      sales: #translate
+        active_subscriber: "active subscriber"
+        active_subscribers: "active subscribers"
     users:
       index:
         banner_button: Ubah kebijakan akses
@@ -33,8 +97,23 @@ en:
         sharelink:
           button: Salin
           title: Atau bagikan tautan ini
+        expenditures: Expenditures # translate
+        lesson: # translate
+          zero: Lesson
+          one: Lesson
+          other: Lessons
+        last_viewed: "Last viewed:" # translate
+      change_role: # translate
+        one_admin: "You need at least one administrator."
+        admin_limit: "You've reached your limit of admins. Consider upgrading your plan at Admin > Billing."
+        not_valid: "This is not a valid role."
+      helper: # translate
+        active: "Active"
+        invitated: "Invitation Pending"
     items:
       completed: Selesai
+      destroy: # translate
+        destroyed: "Lesson was successfully deleted."
     groups:
       index:
         members: Anggota
@@ -53,6 +132,12 @@ en:
         modal_form_users_label: Tambah pengguna
         modal_form_users_placeholder: Pilih pengguna
         modal_title: Perbarui grup
+      create: # translate
+        created: "Group was successfully created."
+        update: # translate
+          updated: "Group was successfully updated."
+        destroy: # translate
+          destroyed: "Group was successfully deleted."
     certificate_templates:
       index:
         issue_config: Konfigurasi Masalah
@@ -63,9 +148,24 @@ en:
         not_created: Belum dibuat
         edit: Ubah templat
         create: Buat templat
-    layouts:
+      update: # translate
+        updated: "The certificate template was successfully updated."
+      edit: # translate
+        subtitle_html: "Edit certificates for the course <strong>%{course}</strong>."
+        change_logo: "Change logo"
+        upload_logo: "Upload logo"
+        file_recommendations: "We recommend using a PNG file with transparency. Maximum size: 1200 x 600px."
+        change_signature: "Change signature"
+        upload_signature: "Upload signature"
+        automatic_hint: "If you set this as automatic, certificates will be issued after the learner reaches a minimum level to issue, which you can setup below."
+    layouts: # translate
       application:
         workspace: Kembali ke Akademi
+        marble_academy: "💎 Marble Academy"
+        help_center: "📚 Help Center"
+        facebook: "👍 Facebook Group"
+        feature_request: "👾 Feature request"
+        contact_support: "💬 Contact support"
     questions:
       show:
         col:
@@ -74,7 +174,9 @@ en:
           name: Nama
         completed: Selesai
         title: Judul
-    plans:
+      destroy: # translate
+        destroyed: "Question was successfully deleted."
+    plans: # translate
       index:
         manage: Kelola Paket Anda
         lifetime: Akses seumur hidup ke
@@ -105,6 +207,16 @@ en:
         topic13: Profil pengguna
         topic14: Duplikat pelajaran
         topic15: Kolaborator kursus
+        manage_subscription: "Manage Subscription"
+        unlimited_academies: "Unlimited academies"
+        unlimited_active_courses: "Unlimited active courses"
+        active_courses: "active courses"
+        custom_plan_offer: "Didn't find the ideal plan? Contact us so that we can customize it for you."
+      payment_confirmed: "The payment was confirmed and you new plan is already available. That means you can start using all the features right away."
+      hope_you_enjoy: "We hope you enjoy your experience and that you can use Marble to leverage your business and engage your customers. Feel free to contact us for support, when you need."
+      lets_start: "Let's start!"
+      error_restart: "You can restart the process to subscribe to the plan."
+      error_customer_portal: "Sorry, we had a problem connecting your Stripe account. Please, contact our support"
     tenants:
       edit:
         name: Nama Akademi
@@ -115,13 +227,13 @@ en:
         whitelabel_checkbox: Hapus tanda 'Powered by Marble'
         design_title: Desain
         design_subtitle: Perbarui logo merek Anda, gambar latar belakang, dan warna yang digunakan di akademi Anda.
-        brand_instructions: 'Max size: 2000 x 700 px'
+        brand_instructions: 'Max size: 2000 x 700 px' # translate
         brand_logo: Logo merek
         favicon_logo: Logo favicon
         save_logo: Simpan logo
         save_favicon_logo: Simpan Favicon logo
         go_to_themes: Buka pengaturan tema
-      domain:
+      domain: # translate
         form:
           placeholder: example.yourdomain.tld
           submit: Simpan domain khusus
@@ -131,10 +243,23 @@ en:
           domain</span> you choose here:"
         title: Domain khusus
         learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Pelajari lebih lanjut cara aktifkan domain khusus</a>
+        dns_set_correctly: DNS Settings - CNAMEs were set correctly.
+        dns_not_set_correctly: DNS Settings - CNAMEs not set correctly.
+        custom_domain_published: Published  - The new domain is accessible.
+        custom_domain_not_published: Not published  - The new domain is not accessible.
+      sso: # translate
+        sso_login_url: "SSO Login URL"
+        sso_logout_url: "SSO Logout URL"
+        activate_sso: "Activate SSO"
+        sso_secret: "SSO Secret"
+        generate: "Generate key"
+        regenerate: "Regenerate key"
       language:
         submit: Simpan bahasa
         label: Bahasa
         subtitle: Ubah bahasa untuk seluruh akademi.
+      currency:
+        instructions: Change the default currency for all your courses. #translate
       access_policy:
         action: Ubah akses
         modal:
@@ -167,8 +292,8 @@ en:
         access_policy: "Kebijakan Akses"
     themes:
       background_image: Gambar latar belakang
-      bg_instructions: 'Max size: 3000 x 1000 px'
-      brand_instructions: 'Max size: 500 x 175 px'
+      bg_instructions: 'Max size: 3000 x 1000 px' # translate
+      brand_instructions: 'Max size: 500 x 175 px' # translate
       brand_logo: Logo merek
       button_color: Warna tombol
       button_text_color: Warna teks tombol
@@ -179,7 +304,7 @@ en:
       course_body_text_color: Warna teks isi kursus
       course_design: Desain kursus
       course_design_subtitle: Desain subjudul kursus
-      delete_image: Hapus gambar
+      delete_image: "Delete image" # translate
       go_to: Buka pengaturan tema
       images: Gambar
       images_subtitle: Sesuaikan gambar yang ditampilkan di akademi Anda.
@@ -189,17 +314,58 @@ en:
       save: Simpan tema baru
       title: Pengaturan tema
       title_color: Warna judul di beranda
+      create: # translate
+        updated: "Theme was successfully updated."
+      destroy:
+        destroyed: "Theme was successfully destroyed."
+    certificates: # translate
+      create:
+        created: "The certificate was created."
+        error: "There was error when creating the certificate."
+      view_pdf:
+        title: "Certificate of Completion"
+        was_awarded: "was awarded at %{date} to"
+        for_completing: "for completing the course"
+    tags: # translate
+      destroy:
+        destroyed: "Tag was successfully deleted."
+    integrations: # translate
+      index:
+        stripe_description: "Integrate your Stripe account to your academy and start selling your courses to new learners."
+        mailchimp_description: "Automatically create a new Mailchimp contact whenever someone registers to your academy."
+        intercom_description: "Automatically create a new Intercom contact whenever someone registers to your academy."
+        hubspot_description: "Automatically create a new Hubspot contact whenever someone registers to your academy."
   errors:
     messages:
       not_saved:
         one: '1 kesalahan mencegah %{resource} ini dari disimpan:'
         other: "%{count} kesalahan mencegah %{resource} ini dari disimpan:"
+  payments: # translate
+    show:
+      purchase_confirmation: Purchase confirmation
+      confirmation:
+        title: Your new journey starts now!
+        payment_confirmed_html: The payment was confirmed and your new course is already available. That means you can <a href='%{link}'>start learning right away</a>.
+        learning_metrics_html: You can also <a href='%{link}'>keep up with your learning metrics</a> on your profile page.
+        lets_start: "Let's start!"
+      error:
+        title: Oops!
+        something_wrong: There was something wrong with your payment. Please, check if the information provided is correct.
+        restart: You can restart the process again in order to access the course.
+        go_to_payment: Go to payment
+    cancel_subscription:
+      canceled: "Your subscription was canceled."
+      error: "Something went wrong and we couldn't cancel your subscription."
+    purchase_confirmation: "Purchase confirmation"
+    create:
+      unable_to_proceed: "Unable to proceed. The academy is disconnected from the payment system. Please, contact support."
   items:
     update: Perbarui pelajaran
     edit: Ubah pelajaran
     delete: Hapus pelajaran
     add: Tambah pelajaran
-    create: Buat pelajaran
+    create:
+      created: "Lesson was successfully created." # translate
     save: Simpan pelajaran
     add_question: Tambah pertanyaan
     choose_file: Pilih file
@@ -208,7 +374,7 @@ en:
     enter_tag: Masukkan label
     uploaded: Sedang diunggah
     nolink_text: Tidak punya tautan? Unggah file
-    edit_path_item_advanced:
+    edit_path_item_advanced: # translate
       choose_lesson: Pilih jenis pelajaran
       website_description: Kartu untuk tautan apa pun
       video_description: Melingkupi integrasi video
@@ -216,10 +382,25 @@ en:
       text_description: Teks panjang dengan gaya
       embed_description: Sematkan konten apa pun yang Anda suka
       quiz_description: Berikan opsi yang jelas
+      title_goes_here: "Title goes here"
+      description_goes_here: "Description goes here"
+      learn_more: "Learn more about how to create a course"
+      content: "Content"
+      not_saved: "%{error} prohibited this item from being saved:"
+      paste_or_type: "Paste or type a link"
+      learn: "Learn more"
+      pdf_link_html: "Add a <span class='font-weight-bold'>PDF</span> by link:"
+      pdf_explanation_html: "PDFs can only be shown with links ending in <span class='font-italic'>'.pdf'</span>. For other PDFs please use the upload below."
+      video_explanation_html: "Use videos from <span class='font-weight-bold'>YouTube</span>, <span class='font-weight-bold'>Vimeo</span>, <span class='font-weight-bold'>Wistia</span>, <span class='font-weight-bold'>Loom</span> and many other video hosting platforms."
+      embed_content_html: "Embed content <span class='font-weight-bold'>by link</span>:"
+      embed_explanation_html: "Enter a valid <span class='font-weight-bold'>iframe</span> or <span class='font-weight-bold'>embed code</span> from your favorite tools, e.g. Miro, Trello or Figma."
+      upload_pdf_html: "or <span class='font-weight-bold'>upload a PDF</span> file from your computer:"
+      about_questions: "about how to add your questions."
     index:
       all: Semua
       reset: Atur ulang
       tag: Pilih label
+      create: "Add new lesson" # translate
     myitem:
       answer: Lihat jawaban
       back: 'Kembali ke:'
@@ -245,6 +426,14 @@ en:
       question_text: Anda dapat menambah pertanyaan setelah membuat pelajaran.
     show:
       link: Kunjungi tautan
+    myitem_show: # translate
+      needs_sign_in: "You need to sign in or sign up before continuing."
+      not_enrolled: "Not enrolled in this path yet."
+    create_advanced: # translate
+      updated: "Lesson was successfully updated."
+    _configuration_navbar: # translate
+      all_courses: "All Courses"
+      publish: "Publish"
   layouts:
     _navbar:
       account_question: Punya akun?
@@ -256,6 +445,7 @@ en:
       my_settings: Pengaturan
       support: Bantuan
       templates: Templat
+      upgrade_plan: "Upgrade Plan!" # translate
     _navbar_tenants:
       account_question: Punya akun?
   notification_mailer:
@@ -264,6 +454,7 @@ en:
       sign_in: Masuk
       workspace_name: Nama akademi
       workspace_url: URL akademi
+      subject: "[Marble] Notifications from %{tenant}" # translate
   paths:
     shared:
       choose_file: Pilih file
@@ -292,10 +483,14 @@ en:
       available: Tersedia
       expired: Kedaluwarsa
       edit_path: Ubah Kursus
+      subscribe: Subscribe # translate
+      subscribe_for: Subscribe for # translate
+      buy_course: Buy # translate
+      buy_for: Buy for # translate
     show_settings:
       delete_image: Hapus gambar
       restore_image: Pulihkan semula
-    edit_cover_image_modal:
+    _edit_cover_image_modal:
       restore: Pulihkan semula
       label:
         banner: Gambar sampul
@@ -336,7 +531,7 @@ en:
       path_collaboration: Kolaborasi kursus
       path_collaboration_text: Izinkan pelajar untuk tambah pelajaran ke kursus ini.
       person_space: orang di akademi Anda.
-       hanya untuk jangka waktu tertentu.
+        hanya untuk jangka waktu tertentu.
     _new_item_modal:
       title: Tambah pelajaran baru
     _path:
@@ -373,6 +568,8 @@ en:
       sending_notification: Anda akan mengirimkan pemberitahuan ke
       title_1: Tambah pelajaran
       title_2: Pengaturan grup kursus
+      needs_author: "You have to be the author to edit this path." # translate
+      needs_author_preview: "You have to be the author to preview this path." # translate
     index:
       assigned: Ditetapkan kepada saya
     review:
@@ -410,14 +607,35 @@ en:
       no_items: Belum ada pelajaran.
       path_published: Kursus berhasil diterbitkan.
       send_invitations: Kirim undangan
+      not_published: "This course is not published yet." # translate
     show_share:
       sharelink:
         button: Salin
         title: Bagikan tautan ini
-    templates:
+    templates: # translate
       create_template: Buat dari templat
       title: Templat
       view_original: Lihat kursus asli
+    create_from_template:
+      created: "Course was successfully created from template."
+    restore_default_image:
+      not_deleted: "We couldn't delete the background image."
+    publish:
+      published: "Course was successfully published."
+      limit: "You've reached the limit of your plan. Consider upgrading your account at Admin > Billing."
+    update:
+      updated: "Course was successfully updated."
+      settings_changed: "Course settings were successfully changed."
+    add_existing_items:
+      added: "Item was successfully added."
+    remove_item:
+      removed: "Lesson was successfully removed from course."
+      not_removed: "Course must contain at least one lesson."
+    update_cover:
+      error: "There was an error with the updating the cover."
+    invite_user: "Learner was successfully invited!"
+    validations:
+      limit_mb: "is larger than 5MB"
   questions:
     shared:
       correct: Benar!
@@ -426,6 +644,8 @@ en:
       multiple: Soal pilihan ganda
       submit: Kirim
       answer: Periksa jawaban yang benar
+      created: "Question was successfully created." # translate
+      deleted: "Question was successfully deleted." # translate
     _option_fields:
       option: Pilihan
       answer: Periksa jawaban
@@ -445,6 +665,7 @@ en:
       position: Masukkan posisi Anda
     _profile_navigation:
       overview: Gambaran
+    updated: "User was successfully updated." # translate
   users:
     shared:
       password: Kata sandi
@@ -469,6 +690,13 @@ en:
         no_lessons: Anda belum memiliki pelajaran yang tersedia.
       paths:
         no_courses: Anda belum memiliki kursus yang tersedia.
+      billing: # translate
+        no_billing: There isn't any order or payment yet.
+        cancel_subscription: "Cancel subscription"
+        renovates_at: "Renovates at"
+        expires_at: "Expires at"
+        canceled_at: "Canceled at"
+        proceed_with_cancellation: "If you cancel your subscription, you will have access to the course until %{date}. Do you want to proceed with the cancellation?"
       show:
         overview: Gambaran
         progress: Kemajuan Belajar
@@ -497,21 +725,23 @@ en:
         title: Atur ulang kata sandi
     passwords:
       edit:
-        submit_button: Ubah kata sandi 
+        submit_button: Ubah kata sandi
         subtitle_html: Masukkan kata sandi baru untuk akun Marble Anda, untuk masuk
           ke <strong>%{tenant}</strong>.
       new:
-        reset_link: Get Reset Link
+        reset_link: Get Reset Link # translate
         subtitle_html: Untuk mengatur ulang kata sandi Anda, masukkan alamat email yang Anda gunakan untuk
           masuk ke <strong>%{tenant}</strong>.
     registrations:
       new:
-        terms_button: Terms of Service
+        terms_button: Terms of Service # translate
         terms_html: Dengan melanjutkan, Anda menyetujui %{link} kami.
         title: Daftar ke %{tenant}
     sessions:
       new:
         title: Masuk ke %{tenant}
+    validations:
+      limit_mb: "is larger than 5MB"
   welcome:
     _modal_new_path:
       label:
@@ -528,6 +758,10 @@ en:
       label: Masukkan URL Akademi Anda
       placeholder: url-tim-anda
       title: Masuk ke Akademi Anda
+    create: "Welcome to your new space! Please, sign in to start using it." # translate
+    find_team: # translate
+      not_found: "Academy not found."
+      enter_name: "Please Enter the Space Name."
   global:
     back: Kembali
     cancel: Batal
@@ -555,6 +789,7 @@ en:
     name: Nama
     title: Judul
     description: Deskripsi
+    summary: Summary # translate
     url: URL
     email: E-mail
     details: Rincian
@@ -580,6 +815,10 @@ en:
     h: j
     s: d
     ago: yang lalu
+    day: day # translate
+    week: week # translate
+    month: month # translate
+    year: year # translate
     analytics: Analitik
     time_spent: Waktu yang dihabiskan
     last_seen: Terakhir terlihat
@@ -601,5 +840,168 @@ en:
     questions: Pertanyaan
     settings: Pengaturan
     billing: Tagihan
+    sales: Sales # translate
+    price: Price # translate
+    revenue: Revenue # translate
     integration: Integrasi
     integrations: Integrasi
+    currency: Currency # translate
+    sso: "Single Sign-On" # translate
+    certificate_template: "Certificate Template" # translate
+    hi: "Hi" # translate
+    all_rights_reserved: "All rights reserved" # translate
+    thanks: "Thanks" # translate
+    ceo_and_founder: "CEO and founder of Marble" # translate
+  certificates: # translate
+    issue_automatic_certificate: "Congratulations, you have a new certificate! You can view and download it from your profile page."
+  tenants: # translate
+    create:
+      recaptcha: "reCAPTCHA Authorization Failed. Please try again."
+    confirmation:
+      welcome: "Welcome to Marble! Your email has been confirmed. Please log in to continue."
+      tenant_doesnt_exist: "Sorry. Tenant does not exist."
+  certificate_mailer: # translate
+    send_certificate:
+      subject: "Congratulations %{user}, you've completed your %{path} course!"
+      preheader: "You've got a new certificate!"
+      congratulations_html: "We want to congratulate you on completing your <strong>%{path}</strong> course in the %{tenant}'s Academy."
+      you_can_view_html: "You can view and download your certificate on the %{href}."
+      view_certificate: "View Certificate"
+      share_html: "Finally, don't forget to <strong>share your achievement</strong> with your network!"
+  payment_mailer: # translate
+    send_payment_confirmation:
+      subject: "%{user}, your payment was confirmed!"
+      preheader: "Your payment was confirmed!"
+      subscription_paid_html: "We've just received your subscription payment for the course <strong>%{path}</strong>, which is still available on %{tenant}'s Academy."
+      track_metrics: "track your learning metrics"
+      you_can_track_html: "You can also %{href} and manage payments and subscriptions on your profile's page."
+      resume_course: "Resume course"
+      course_paid_html: "We've just received your payment for the course <strong>%{path}</strong>, which is already available on %{tenant}'s Academy."
+      start_learning: "Start learning"
+    send_cancellation_confirmation:
+      canceled: "Your subscription was canceled."
+      confirmation_message_html: "This is a confirmation message of your subscription cancellation for the course <strong>%{path}</strong>."
+      you_can_still_html: "You can still %{href1}, %{href2}, and %{href3} on your profile's page."
+      href1_text: "track your learning metrics"
+      href2_text: "view and download your certificates"
+      href3_text: "manage payments and subscriptions"
+  plan_mailer: # translate
+    reminder_3_days:
+      subject: "Your trial expires in 3 days"
+    reminder_last_day:
+      subject: "%{user}, we have a plan for you!"
+    hope_you_liked: "We hope you liked your experience with Marble."
+    hope_you_are_enjoying: "We hope you are enjoying your experience with us!"
+    with_marble_html: "With <strong>Marble</strong>, in a matter of minutes, you can build stylish courses packaged in your white-labeled themed academy. You can use it for marketing, customer training, onboarding, and any other educational purposes."
+    choose_plan_in_3_html: "As you are now using a trial version of the academy, you will need to <strong>choose a plan in 3 days</strong> to continue."
+    choose_plan: "Choose a plan"
+    if_any_questions: "If you have any questions, just hit reply on this email."
+    tomorrow_last_day_html: "Tomorrow is the <strong>last day of your trial period</strong>. However, if you want to continue to build amazing academies to your customers, we have a plan for your needs!"
+  tenant_mailer: # translate
+    registration_confirmation:
+      subject: "Registration Confirmation"
+    appsumo_welcome:
+      subject: "Registration Confirmation"
+    welcome_message:
+      subject: "Welcome to Marble!"
+  certificate_templates:
+    validations:
+      limit_mb: "is larger than 5MB"
+      limit_px: "is larger than 1200 x 600 pixels"
+  themes: # translate
+    validations:
+      limit_mb: "is larger than 5MB"
+      limit_px1: "is larger than 2000 x 700 pixels"
+      limit_px2: "is larger than 3000 x 1000 pixels"
+  payment: # translate
+    currencies:
+      usd: "US dollar (USD)"
+      eur: "Euro (EUR)"
+      aud: "Australian dollar (AUD)"
+      gbp: "British sterling (GBP)"
+      bgn: "Bulgarian lev (BGN)"
+      cad: "Canadian dollar (CAD)"
+      cny: "Chinese yuan renminbi (CNY)"
+      hrk: "Croatian kuna (HRK)"
+      czk: "Czech koruna (CZK)"
+      dkk: "Danish krone (DKK)"
+      hkd: "Hong Kong dollar (HKD)"
+      huf: "Hungarian forint (HUF)"
+      isk: "Icelandic krona (ISK)"
+      inr: "Indian rupee (INR)"
+      idr: "Indonesian rupiah (IDR)"
+      ils: "Israeli shekel (ILS)"
+      jpy: "Japanese yen (JPY)"
+      php: "Philippine peso (PHP)"
+      mxn: "Mexican Peso (MXN)"
+      myr: "Malaysian ringgit (MYR)"
+      nzd: "New Zealand dollar (NZD)"
+      nok: "Norwegian krone (NOK)"
+      ron: "Romanian leu (RON)"
+      rub: "Russian rouble (RUB)"
+      sgd: "Singapore dollar (SGD)"
+      krw: "South Korean won (KRW)"
+      sek: "Swedish krona (SEK)"
+      thb: "Thai baht (THB)"
+      try: "Turkish lira (TRY)"
+      zar: "South African rand (ZAR)"
+      brl: "Brazilian real (BRL)"
+      pln: "Polish zloty (PLN)"
+      chf: "Swiss franc (CHF)"
+  # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
+  datetime: # translate
+    distance_in_words:
+      half_a_minute: "half a minute"
+      less_than_x_seconds:
+        one:   "less than 1 second"
+        other: "less than %{count} seconds"
+      x_seconds:
+        one:   "1 second"
+        other: "%{count} seconds"
+      less_than_x_minutes:
+        one:   "less than a minute"
+        other: "less than %{count} minutes"
+      x_minutes:
+        one:   "1 minute"
+        other: "%{count} minutes"
+      about_x_hours:
+        one:   "about 1 hour"
+        other: "about %{count} hours"
+      x_days:
+        one:   "1 day"
+        other: "%{count} days"
+      about_x_months:
+        one:   "about 1 month"
+        other: "about %{count} months"
+      x_months:
+        one:   "1 month"
+        other: "%{count} months"
+      about_x_years:
+        one:   "about 1 year"
+        other: "about %{count} years"
+      over_x_years:
+        one:   "over 1 year"
+        other: "over %{count} years"
+      almost_x_years:
+        one:   "almost 1 year"
+        other: "almost %{count} years"
+    prompts:
+      year:   "Year"
+      month:  "Month"
+      day:    "Day"
+      hour:   "Hour"
+      minute: "Minute"
+      second: "Seconds"
+  pending: "Pending" # translate
+  profile_page: "profile page" # translate
+  visit_academy: "Visit Academy" # translate
+  invitation_mailer: # translate
+    invitation_instructions:
+      someone_invited_you: "%{sender} has invited you to use %{tenant}'s Academy. Use the button below to set up your account and get started:"
+      action_text: "Set up account"
+      welcome_aboard: "Welcome aboard"
+      if_trouble: "If you’re having trouble with the button above, copy and paste the URL below into your web browser."
+      mail_subject: "%{sender} invited you to %{tenant}'s Academy"
+      contact_support1: "Feel free to contact our"
+      contact_support2: "support team"
+      contact_support3: "if you have any technical issue. (We're lightning quick at replying.)"
